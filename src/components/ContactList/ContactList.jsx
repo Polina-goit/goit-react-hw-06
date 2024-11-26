@@ -1,9 +1,10 @@
 import Contact from "../Contact/Contact";
+import { useSelector } from "react-redux";
 
 import css from "../ContactList/ContactList.module.css";
 
 const ContactList = () => {
-  const contacts = [];
+  const contacts = useSelector((state) => state.contacts.items);
   return (
     <ul className={css.list}>
       {contacts.map((contact) => (
