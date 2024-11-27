@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.container {
+  width: 1500px;
+  background-color: lightcyan;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
